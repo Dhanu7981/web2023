@@ -1,0 +1,82 @@
+body{
+    background-color:rgb(190, 114, 205);
+    width: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.container{
+    background-color:rgb(9, 9, 9);
+    block-size: 470px;
+    width:50%;
+    color: rgb(242, 244, 245);
+    border-radius: 5%;
+    border: 3px solid rgb(7, 7, 7);
+    margin: 40px 230px;
+    margin-left: 250px;
+    opacity: 0.8;
+    z-index: 1;
+    box-shadow: 2px 10px 2px 0px rgb(245, 241, 241);
+    border-color: white;
+}
+header{
+    font-size: xx-large;
+    padding: 10px 200px;
+    color: white;
+}
+
+.container p{
+    font-size: x-large;
+    text-align: center;
+}
+.container button{
+    width:80%;
+    height:40px;
+    display: flex;
+    margin-bottom: 2%;
+    padding-bottom: 20px;
+    padding:10px 20px;
+    background-color:rgb(4, 3, 3);
+    text-align: center;
+    margin-left: 10%;
+    border: 3px solid rgb(3, 3, 3);
+    color: rgb(7, 7, 7);
+    border-radius: 10%;
+    background-color: white;
+    
+}
+.container button:hover{
+    background-color: black;
+}
+
+
+
+.next button{
+    width:100px;
+    height:40px;
+    background-color:rgba(20, 17, 17, 0.989);
+    border-radius: 10px;
+    border: 3px solid rgba(11, 10, 11, 0.989);
+    float:center;
+    margin-left: 40%;
+    color:rgb(3, 3, 3);
+    background-color: white;
+    
+}
+.next button:hover{
+    background-color: plum;
+
+}
+.btn:hover:not([disabled]){
+    background-color: white;
+    color:rgb(1, 6, 11);
+}
+.btn:disabled{
+    cursor:no-drop ;
+}
+.correct{
+    background: #9aeabc;
+
+}
+.incorrect{
+    background:#ff9393;
+}
